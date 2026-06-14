@@ -48,11 +48,11 @@ def predict_sentiment(review):
     return sentiment, confidence
 
 st.set_page_config(
-    page_title="Amazon Product Review Analyzer",
+    page_title="Product Review Analyzer",
     page_icon="🛒"
 )
 
-st.title("🛒 Amazon Product Review Analyzer")
+st.title("Product Review Analyzer")
 
 st.markdown(
     "Enter a customer review and predict whether it is Positive or Negative."
